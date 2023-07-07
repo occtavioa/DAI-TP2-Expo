@@ -8,14 +8,13 @@ export default function App() {
       <Image
         style={styles.img1}
         source={require("./assets/imgs/central_perk_logo.jpeg")} />
-      <View style={{height: 700, width: 1500, borderRadius: 30, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-end'}}>
+      <Text>Try some of our most popular flavors!</Text>
+      <View style={{height: 700, width: 1500, borderRadius: 30, overflow: 'hidden', flexDirection: 'row'}}>
         <Image
           style={{height: 700, width: 1500, position: 'absolute'}}
           source={require("./assets/imgs/coffee1.jpeg")} />
-        <View style={{backgroundColor: 'green'}}>
-          <Text style={{alignSelf: 'center', color: 'white'}}>
-            Mocha
-          </Text>
+        <View style={{position: 'absolute', backgroundColor: 'green', alignSelf: 'flex-end', width: '100%'}}>
+          <Text style={{alignSelf: 'center', color: 'white'}}>Mocha</Text>
         </View>
       </View>
       <StatusBar style="auto" />
