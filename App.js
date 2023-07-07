@@ -7,19 +7,17 @@ export default function App() {
     <View style={styles.container}>
       <Image
         style={styles.img1}
-        source={require("./assets/imgs/central_perk_logo.jpeg")}
-      />
-      <div>
+        source={require("./assets/imgs/central_perk_logo.jpeg")} />
+      <View style={{height: 700, width: 1500, borderRadius: 30, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-end'}}>
         <Image
-          style={{height: 700, width: 1500}}
-          source={require("./assets/imgs/coffee1.jpeg")}
-        />
-        <Text
-          style={{position: 'relative'}}
-        >
-          Open up App.js to start working on your app!
-        </Text>
-      </div>
+          style={{height: 700, width: 1500, position: 'absolute'}}
+          source={require("./assets/imgs/coffee1.jpeg")} />
+        <View style={{backgroundColor: 'green'}}>
+          <Text style={{alignSelf: 'center', color: 'white'}}>
+            Mocha
+          </Text>
+        </View>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
