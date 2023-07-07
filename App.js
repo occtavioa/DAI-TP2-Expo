@@ -34,18 +34,19 @@ const styles = StyleSheet.create({
   },
   imgLogo: {
     aspectRatio: 1080 / 416,
-    width: "40%",
+    width: "70%",
   },
   text: {
     fontWeight: "bold",
     textAlign: "center",
+    padding: '5%',
   },
   containerImgCafe: {
-    aspectRatio: 1 / 1,
-    borderRadius: 50,
+    aspectRatio: 5 / 6,
+    borderRadius: 40,
     overflow: "hidden",
     flexDirection: "row",
-    width: "50%",
+    width: "80%",
   },
   imgCafe: {
     position: "absolute",
